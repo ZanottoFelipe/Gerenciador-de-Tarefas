@@ -13,9 +13,6 @@ export default function GroupMembers() {
       <View style={styles.memberItem}>
         <Text style={styles.memberText}>Felipe Zanotto</Text>
       </View>
-      <View style={styles.memberItem}>
-        <Text style={styles.memberText}>Eduardo Goulart Ost</Text>
-      </View>
 
       {/* Botão para voltar */}
       <TouchableOpacity style={styles.button} onPress={() => router.push("/")}>
